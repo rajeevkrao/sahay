@@ -198,18 +198,31 @@ h1, h2, h3, h4, h5,
   }  
 }
 
-#resources iframe{
+#youtube{
+  text-align: center;
+}
+
+#youtube iframe{
   height:70vh;
   margin:0% 5%;
   width:50%;
   border-radius: 2vh;
 }
+
 @media(max-width: 600px){
-#resources iframe{
+#youtube iframe{
   height:40vh;
   width:80%;
 }
 }
+
+@media(max-width: 1000px){
+#youtube iframe{
+  height:55vh;
+  width:80%;
+}
+}
+
 #resources{
   background-color: #f9f9f9;
 }
