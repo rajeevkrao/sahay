@@ -192,23 +192,30 @@ h1, h2, h3, h4, h5,
     padding:3vh;
 }
 
+@media(max-width:500px){
+  .resources-site .site-blocks {
+    padding:6vh;
+  }  
+}
+
 #resources iframe{
   height:70vh;
-  margin:10vh 5%;
-  width:90%;
+  margin:0% 5%;
+  width:50%;
   border-radius: 2vh;
 }
 @media(max-width: 600px){
 #resources iframe{
   height:40vh;
+  width:80%;
 }
 }
 #resources{
   background-color: #f9f9f9;
 }
 
-#resources .row{
-
+#resources .youtube{
+  text-align:center;
 }
 
 .res-card{
