@@ -188,6 +188,21 @@ h1, h2, h3, h4, h5,
   opacity: 0;
   visibility: hidden; }
 
+.resources-site .site-blocks {
+    padding:3vh;
+}
+
+#resources iframe{
+  height:70vh;
+  margin:10vh 5%;
+  width:90%;
+  border-radius: 2vh;
+}
+@media(max-width: 600px){
+#resources iframe{
+  height:40vh;
+}
+}
 #resources{
   background-color: #f9f9f9;
 }
