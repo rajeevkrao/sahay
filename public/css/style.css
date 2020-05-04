@@ -28,7 +28,7 @@ button{
 /* Slideshow container */
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body { margin:0}
 .mySlides {
   display: none;
   text-align: center;
@@ -408,17 +408,45 @@ h1, h2, h3, h4, h5,
 #homefont{
   font-family: Nunito;
   font-style: normal;
-  font-weight: 300;
-  font-size: 3.125rem;
-  line-height: 4.25rem;
-  margin-bottom: 10vh;
+  font-weight: 350;
+  font-size: 3.8rem;
+  line-height: 4.4rem;
 }
 
-/*
-#procedure .space{
-  padding:6vh 0vw;
+#hometext{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  margin-bottom: 5vh;
 }
-*/
+
+button.call{
+width: 306px;
+height: 72px;
+left: 330px;
+top: 517px;
+background: #2292AD;
+color:white;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 3rem;
+}
+@media(min-width: 769px){
+  .vl{
+    border-right-style: solid;
+  }
+}
+
+@media(max-width: 769px){
+  button.call{
+    margin:4vh 0vw;
+  }
+}
+
 #initiation .space{
   padding-top:4vh 0vw; 
 }
@@ -453,15 +481,6 @@ img.prod{
   font-weight: 600;
   font-size: 25px;
   line-height: 34px;
-}
-
-#hometext{
-  padding-top:15vh;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 3.125rem;
-  line-height: 4.25rem;
 }
 
 #workwithus .text{
