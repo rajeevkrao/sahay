@@ -425,8 +425,6 @@ h1, h2, h3, h4, h5,
 button.call{
 width: 306px;
 height: 72px;
-left: 330px;
-top: 517px;
 background: #2292AD;
 color:white;
 font-family: Nunito;
@@ -435,15 +433,17 @@ font-weight: bold;
 font-size: 1.5rem;
 line-height: 3rem;
 }
-@media(min-width: 769px){
+
+@media(min-width: 768px){
   .vl{
     border-right-style: solid;
   }
 }
 
-@media(max-width: 769px){
+@media(max-width: 768px){
   button.call{
-    margin:4vh 0vw;
+    margin:2vh 0vw;
+    margin-bottom: 3vh;
   }
 }
 
@@ -1138,17 +1138,30 @@ img.prod{
 }
 
 .site-blocks {
-  padding:12vh;
+  padding:5vh;
 }
 @media (max-width: 768px){
  .site-blocks {
-  padding:8vh;
+  padding:6.5vh;
 } 
+}
+
+.webinar-text{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 3rem;
 }
 
 .cr-light{
   background-color: #E5C9B3;
 }
+
+.bl-light{
+  background-color: #2292AD;
+}
+
 
 #homepage{
   background-image: url('/images/grain.svg');
