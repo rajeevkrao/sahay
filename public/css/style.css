@@ -203,23 +203,23 @@ h1, h2, h3, h4, h5,
 }
 
 #youtube iframe{
-  height:70vh;
-  margin:0% 5%;
-  width:50%;
+  height:60vh;
+  margin:0% 0%;
+  width:90%;
   border-radius: 2vh;
 }
 
 @media(max-width: 600px){
 #youtube iframe{
   height:40vh;
-  width:80%;
+  width:95%;
 }
 }
 
 @media(max-width: 1000px){
 #youtube iframe{
-  height:55vh;
-  width:80%;
+  height:45vh;
+  width:95%;
 }
 }
 
