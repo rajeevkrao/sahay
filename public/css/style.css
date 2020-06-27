@@ -152,9 +152,14 @@ img {vertical-align: middle;}
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: "Nunito", -apple-system, sans-serif;
+  font-family: "Nunito", -apple-system, sans-serif !important;
   color:#2292AD !important;
 }
+
+span.icon-menu{
+  font-family: 'icomoon' !important;
+}
+
 .bg-light {
   background: #f9f9f9 !important; }
 
@@ -408,9 +413,31 @@ h1, h2, h3, h4, h5,
 #homefont{
   font-family: Nunito;
   font-style: normal;
-  font-weight: 350;
-  font-size: 3.8rem;
-  line-height: 5rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4.25rem;;
+  text-align: center;
+}
+@media(max-width: 745px){
+  #hd img{
+    width:90%;
+  }
+} 
+
+@media(min-width: 745px){
+  #hd img{
+    width:60%;
+  }
+}   
+#subhomefont{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+
+
 }
 
 #hometext{
@@ -494,7 +521,7 @@ img.prod{
 #workwithus button{
   background-color: #E5C9B3;
   padding:1vh 2vw;
-  margin-top:5vh;
+  margin: 5vh 1vw;
 }
 
 #workwithus button a{
@@ -519,12 +546,16 @@ img.prod{
   color:#2292AD;
 }
 
+#share{
+  padding:25vh 0;
+}
+
 #share .text{
   font-family: Nunito;
   font-style: normal;
   font-weight: 300;
-  font-size: 3.125rem;
-  line-height: 4.25rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
 }
 
 #share button{
@@ -557,11 +588,58 @@ img.prod{
   line-height: 48px;
 }
 
+#qqc h2{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4.25rem;;
+  text-align: center;
+
+  color: #2292AD;
+}
+
+#qqc p{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #2292AD;
+  margin:5vh 5vw;
+}
+
+#qqc p b{
+  font-weight: 600;
+}
+
+#partners p{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #2292AD;
+  margin:5vh 5vw;
+}
+
+#partners h2{
+  font-family: Nunito;
+  margin:5vh 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4.25rem;
+  text-align: center;
+  color: #2292AD;
+}
+
 #partners h1{
   font-family: Nunito;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
   font-size: 3.125rem;
   line-height: 4.25rem;
 }
@@ -923,7 +1001,11 @@ img.prod{
 }
 
 #partners{
-  text-align: center;
+  text-align: center !important;
+}
+
+button{
+  font-size: 2rem !important;
 }
 
 #partners img{
@@ -1146,6 +1228,27 @@ img.prod{
 } 
 }
 
+div#workwithus h2{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  line-height: 68px;
+  text-align: center;
+  color: #2292AD;
+}
+
+div#workwithus p{
+  margin-top:4vh;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 41px;
+  text-align: center;
+  color: #2292AD;
+}
+
 .webinar-text{
   font-family: Nunito;
   font-style: normal;
@@ -1154,14 +1257,35 @@ img.prod{
   line-height: 3rem;
 }
 
+div#hd .row{
+  /*margin:5vh 5vw;*/
+}
+
+.hdimg{
+  height:17vh;
+}
+
+#hdiw{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 82px;
+  text-align: center;
+  color: #F8F8F8 !important;
+}
+
 .cr-light{
   background-color: #E5C9B3;
 }
 
-.bl-light{
+.blu-light{
   background-color: #2292AD;
 }
 
+.bla-light{
+  background-color: #000000;
+}
 
 #homepage{
   background-image: url('/images/grain.svg');
