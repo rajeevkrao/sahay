@@ -7,6 +7,10 @@ body {
   font-size: 1rem;
 }
 
+.slideButtons{
+  height:10vh;
+}
+
 ::-moz-selection {
   background: #000;
   color: #fff; }
@@ -34,7 +38,16 @@ body { margin:0}
   text-align: center;
   margin:0vh 5vw;
 }
+.nmySlides {
+  display: none;
+  text-align: center;
+  margin:0vh 5vw;
+}
 img {vertical-align: middle;}
+
+.nmySlides .site-section{
+  padding: 2.5vh 0vw;
+}
 
 .slideshow-container {
   margin:0vh 10vw;
@@ -55,13 +68,46 @@ img {vertical-align: middle;}
   margin-top: 10vh;
 }
 
+#intro img{
+  width:50%;
+  
+  border-radius: 2vh;
+  margin-top: 10vh;
+}
+
+.nmySlides img{
+  width:50%;
+  
+  border-radius: 2vh;
+  margin-top: 10vh;
+}
+
+
 @media (max-width: 555px){
   .mySlides iframe{
     width:80%;
     height: 30vh;
     border-radius: 2vh;
     margin-top: 10vh;
-  }  
+  } 
+  .mySlides img{
+    width:80%;
+    height: 35vh;
+    border-radius: 2vh;
+    margin-top: 10vh;
+  } 
+  .nmySlides iframe{
+    width:80%;
+    height: 30vh;
+    border-radius: 2vh;
+    margin-top: 10vh;
+  } 
+  #intro img{
+    width:80%;
+    height: 35vh;
+    border-radius: 2vh;
+    margin-top: 10vh;
+  }    
 }
 /*
 .mySlides .card{
@@ -121,9 +167,21 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover,{
   background-color: #717171;
 }
+
+.ndot {
+  cursor: pointer;
+  height: 1.8028846153846154vh;
+  width: 1.8028846153846154vh;
+  margin: 0 0.2403846153846154vh;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
 
 /* Fading animation */
 .faded {

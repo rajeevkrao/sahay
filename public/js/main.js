@@ -1,5 +1,6 @@
 //carousel
 var slideIndex = 1;
+var nslideIndex = 1;
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -24,6 +25,31 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+function nplusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function ncurrentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function nshowSlides(n) {
+  var i;
+  var nslides = document.getElementsByClassName("nmySlides");
+  var ndots = document.getElementsByClassName("ndot");
+  if (n > nslides.length) {nslideIndex = 1}    
+  if (n < 1) {nslideIndex = nslides.length}
+  for (i = 0; i < nslides.length; i++) {
+      nslides[i].style.display = "none";  
+  }
+  for (i = 0; i < ndots.length; i++) {
+      ndots[i].className = ndots[i].className.replace(" active", "");
+  }
+  nslides[nslideIndex-1].style.display = "block";  
+  ndots[nslideIndex-1].className += " active";
+}
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
